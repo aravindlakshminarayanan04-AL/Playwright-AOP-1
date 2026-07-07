@@ -1,0 +1,37 @@
+{
+  "standardUser": {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "description": "Normal, fully-working account"
+  },
+  "lockedOutUser": {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "description": "Login is blocked with an error message"
+  },
+  "problemUser": {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "description": "Logs in but has broken product images / UI glitches"
+  },
+  "performanceGlitchUser": {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce",
+    "description": "Logs in but with an artificial delay, useful for timing/wait tests"
+  },
+  "errorUser": {
+    "username": "error_user",
+    "password": "secret_sauce",
+    "description": "Logs in but triggers errors on certain interactions (e.g. checkout)"
+  },
+  "visualUser": {
+    "username": "visual_user",
+    "password": "secret_sauce",
+    "description": "Logs in but has visual/layout glitches, useful for visual regression tests"
+  },
+  "invalidUser": {
+    "username": "invalid_user",
+    "password": "wrong_password",
+    "description": "Does not exist - used for negative login tests"
+  }
+}
